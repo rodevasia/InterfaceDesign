@@ -1,0 +1,36 @@
+/** Step one **/
+html {
+  scroll-behavior: smooth;
+}
+
+/** Step two **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "Montserrat",sans-serif;
+}
+/** Step three **/
+h1 {
+  font-size: 46px;
+  letter-spacing: 1.75px;
+  text-align: center;
+  color: #04437b;
+}
+/** Step four **/
+p,
+a,
+li {
+  font-family: "Lato",sans-serif;
+}
+/** Step five **/
+p span {
+  color: #007672;
+}
+/** Step six **/
+h3 {
+  font-size: 2em;
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.4);
+}
