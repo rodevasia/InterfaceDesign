@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content=" Lab 3" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Lab 3 | CSS Grid & Flexbox</title>
+    <!-- Add our fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Add our CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <!-- we will be making the body element a grid container -->
+  <body>
+    <!-- we will be using flex for our header -->
+    <header>
+      <div>
+        <a href="index.html"><img src="./img/logo.png" alt="header logo" /></a>
+      </div>
+      <nav>
+        <menu>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+        </menu>
+      </nav>
+    </header>
+    <section class="lesson-masthead">
+      <div>
+        <h1>Sample MastHead</h1>
+        <a href="#">Fake Button</a>
+      </div>
+    </section>
+    <main>
+      <section>
+        <div class="card red-card">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            cupiditate fuga fugiat ipsa nam natus ratione sint sunt tempore
+            vitae. Amet architecto iste minima nemo. Consequatur expedita id
+            iure iusto labore necessitatibus praesentium vel voluptas. Ad
+            adipisci architecto aspernatur at consectetur deserunt, earum eos
+            explicabo ipsa iste itaque labore, maxime molestias, omnis porro
+            quasi repellat rerum sapiente similique sit suscipit tempora tenetur
+            velit voluptas voluptate.
+          </p>
+        </div>
+        <!-- image -->
+        <div class="card green-card">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            cupiditate fuga fugiat ipsa nam natus ratione sint sunt tempore
+            vitae. Amet architecto iste minima nemo. Consequatur expedita id
+            iure iusto labore necessitatibus praesentium vel voluptas. Ad
+            adipisci architecto aspernatur at consectetur deserunt, earum eos
+            explicabo ipsa iste itaque labore, maxime molestias, omnis porro
+            quasi repellat rerum sapiente similique sit suscipit tempora tenetur
+            velit voluptas voluptate.
+          </p>
+        </div>
+        <!-- text -->
+        <div class="card blue-card">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            cupiditate fuga fugiat ipsa nam natus ratione sint sunt tempore
+            vitae. Amet architecto iste minima nemo. Consequatur expedita id
+            iure iusto labore necessitatibus praesentium vel voluptas. Ad
+            adipisci architecto aspernatur at consectetur deserunt, earum eos
+            explicabo ipsa iste itaque labore, maxime molestias, omnis porro
+            quasi repellat rerum sapiente similique sit suscipit tempora tenetur
+            velit voluptas voluptate.
+          </p>
+        </div>
+      </section>
+      <section>
+        <!-- text -->
+        <div class="card blue-card">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            cupiditate fuga fugiat ipsa nam natus ratione sint sunt tempore
+            vitae. Amet architecto iste minima nemo. Consequatur expedita id
+            iure iusto labore necessitatibus praesentium vel voluptas. Ad
+            adipisci architecto aspernatur at consectetur deserunt, earum eos
+            explicabo ipsa iste itaque labore, maxime molestias, omnis porro
+            quasi repellat rerum sapiente similique sit suscipit tempora tenetur
+            velit voluptas voluptate.
+          </p>
+        </div>
+        <!-- image -->
+        <div class="card red-card">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            cupiditate fuga fugiat ipsa nam natus ratione sint sunt tempore
+            vitae. Amet architecto iste minima nemo. Consequatur expedita id
+            iure iusto labore necessitatibus praesentium vel voluptas. Ad
+            adipisci architecto aspernatur at consectetur deserunt, earum eos
+            explicabo ipsa iste itaque labore, maxime molestias, omnis porro
+            quasi repellat rerum sapiente similique sit suscipit tempora tenetur
+            velit voluptas voluptate.
+          </p>
+        </div>
+        <!-- image -->
+        <div class="card purple-card">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            cupiditate fuga fugiat ipsa nam natus ratione sint sunt tempore
+            vitae. Amet architecto iste minima nemo. Consequatur expedita id
+            iure iusto labore necessitatibus praesentium vel voluptas. Ad
+            adipisci architecto aspernatur at consectetur deserunt, earum eos
+            explicabo ipsa iste itaque labore, maxime molestias, omnis porro
+            quasi repellat rerum sapiente similique sit suscipit tempora tenetur
+            velit voluptas voluptate.
+          </p>
+        </div>
+        <!-- text -->
+        <div class="card green-card">
+          <h3>Title</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+            cupiditate fuga fugiat ipsa nam natus ratione sint sunt tempore
+            vitae. Amet architecto iste minima nemo. Consequatur expedita id
+            iure iusto labore necessitatibus praesentium vel voluptas. Ad
+            adipisci architecto aspernatur at consectetur deserunt, earum eos
+            explicabo ipsa iste itaque labore, maxime molestias, omnis porro
+            quasi repellat rerum sapiente similique sit suscipit tempora tenetur
+            velit voluptas voluptate.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="card green-card">
+        <h6>Footer Title 1</h6>
+     
+      </div>
+
+      <div class="card red-card">
+        <h6>Footer Title 2</h6>
+     
+      </div>
+      <div class="card purple-card">
+        <h6>Footer Title 3</h6>
+     
+      </div>
+    </footer>
+  </body>
+</html>
